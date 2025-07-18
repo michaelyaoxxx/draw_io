@@ -1,0 +1,527 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
+  <diagram name="Page-1" id="SRcoIRhMKzH6jcTrMAED">
+    <mxGraphModel dx="1096" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-1" value="benchmp_child" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="933" y="271" width="160" height="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="wxzZbnYdCs5ndSCOBluk-1" vertex="1">
+          <mxGeometry x="75.5" y="59" width="10" height="986" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-3" value="benchmp_parent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="780" y="270" width="379" height="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="60" y="60" width="10" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-5" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;fontColor=#0000FF;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="238.5" y="725.1800000000001" width="89.5" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-6" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;fontColor=#0000FF;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="233" y="535.1800000000001" width="95" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;fontColor=#0000FF;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="233" y="423.18" width="94" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="448.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="468.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="448.18" />
+              <mxPoint x="285" y="468.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;(*benchmark)()&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.344" y="1" relative="1" as="geometry">
+            <mxPoint x="2" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.081;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry x="-0.2643" y="19" relative="1" as="geometry">
+            <mxPoint x="238.5" y="373.18" as="sourcePoint" />
+            <mxPoint x="239.30999999999995" y="393.75600000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="373.18" />
+              <mxPoint x="285" y="394.18" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-11" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;state=warmup&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="55" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="790.18" as="sourcePoint" />
+            <mxPoint x="228.5" y="790.2085714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="178" y="790.18" />
+              <mxPoint x="178" y="790.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;发信号让child准备结果&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="40" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.753;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.89999999999964" y="962.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="991.0299999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285.5" y="962.0799999999999" />
+              <mxPoint x="285.5" y="991.0799999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-15" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#ff0000&quot;&gt;exit()&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="42" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.49999999999997" y="500.18" as="sourcePoint" />
+            <mxPoint x="238.49999999999997" y="520.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285.1" y="500.18" />
+              <mxPoint x="285.1" y="520.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;state=&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;timing_interval&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="55" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.599;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="558.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="577.7300000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285.1" y="558.18" />
+              <mxPoint x="285.1" y="578.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-19" value="&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;(*benchmark)()&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.3885" relative="1" as="geometry">
+            <mxPoint x="7" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="600.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="620.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286" y="600.18" />
+              <mxPoint x="286" y="620.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-21" value="&lt;font color=&quot;#000000&quot;&gt;运行时间满足&lt;/font&gt;&lt;br&gt;&lt;b style=&quot;&quot;&gt;[0.99s, 1.2s]&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="56" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="642.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="662.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285.1" y="642.18" />
+              <mxPoint x="285.1" y="662.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-23" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;记录运行结果&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#000000;" parent="wxzZbnYdCs5ndSCOBluk-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.4207" y="2" relative="1" as="geometry">
+            <mxPoint x="55" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="745.18" as="sourcePoint" />
+            <mxPoint x="238.5" y="765.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="745.18" />
+              <mxPoint x="285" y="765.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-25" value="&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;(*benchmark)()&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.3793" y="1" relative="1" as="geometry">
+            <mxPoint x="7" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.5" y="693.2085714285714" as="sourcePoint" />
+            <mxPoint x="238.5" y="713.2085714285714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="693.18" />
+              <mxPoint x="285" y="713.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-27" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;state=&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;cooldown&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];imageWidth=39;imageAspect=1;absoluteArcSize=0;" parent="wxzZbnYdCs5ndSCOBluk-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="43" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228.5" y="856.18" as="sourcePoint" />
+            <mxPoint x="70" y="856.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186" y="856.18" />
+              <mxPoint x="186" y="856.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-29" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;复制运行结果&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="-36" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.837;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="228.5" y="886.18" as="sourcePoint" />
+            <mxPoint x="70" y="886.2199999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="886.18" />
+              <mxPoint x="181" y="886.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;发送结果result完成信号&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="-49" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.47" y="433.65117647058804" as="sourcePoint" />
+            <mxPoint x="70.47" y="462.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100.47" y="433.71" />
+              <mxPoint x="100.47" y="462.71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-33" value="&lt;font color=&quot;#000000&quot;&gt;根据&lt;b&gt;warmup&lt;/b&gt;参数，&lt;br&gt;选择让子进程预热&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="59" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="69.9999999999998" y="714.181176470588" as="sourcePoint" />
+            <mxPoint x="69.9999999999998" y="743.2399999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="714.2399999999999" />
+              <mxPoint x="100" y="743.2399999999999" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-35" value="&lt;font color=&quot;#000000&quot;&gt;准备merge results&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="59" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="904.181176470588" as="sourcePoint" />
+            <mxPoint x="70" y="923.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="904.18" />
+              <mxPoint x="100" y="923.18" />
+              <mxPoint x="70" y="923.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-37" value="&lt;font color=&quot;#000000&quot;&gt;整理merge results&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-36" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="56" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="971.1811764705877" as="sourcePoint" />
+            <mxPoint x="70" y="1000.24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="971.2399999999999" />
+              <mxPoint x="100" y="1000.24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-39" value="&lt;font color=&quot;#000000&quot;&gt;取多次迭代结果的&lt;br&gt;&lt;/font&gt;&lt;b style=&quot;&quot;&gt;中间值&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;为最终结果&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="66" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.956;entryY=0.325;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.039;exitY=0.307;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70.38999999999987" y="367.69" as="sourcePoint" />
+            <mxPoint x="69.55999999999995" y="384.43" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="73" y="368.18" />
+              <mxPoint x="120" y="367.18" />
+              <mxPoint x="120" y="384.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-41" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;根据&lt;b&gt;parallel&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;等待ready信号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-40" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="59" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.926;entryY=0.645;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.039;exitY=0.307;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="69.8300000000001" y="636.6899999999999" as="sourcePoint" />
+            <mxPoint x="69.25999999999999" y="654.0300000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="72" y="637.18" />
+              <mxPoint x="119" y="636.18" />
+              <mxPoint x="119" y="654.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-43" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;根据&lt;b&gt;parallel&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;等待done信号&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="61" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="808.1811764705877" as="sourcePoint" />
+            <mxPoint x="70" y="827.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="808.18" />
+              <mxPoint x="100" y="827.18" />
+              <mxPoint x="70" y="827.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-45" value="&lt;div style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;根据&lt;b&gt;parallel&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;等待result完成信号信号&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" parent="wxzZbnYdCs5ndSCOBluk-44" vertex="1" connectable="0">
+          <mxGeometry x="-0.4652" y="-1" relative="1" as="geometry">
+            <mxPoint x="72" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.107;exitY=0.636;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229.56999999999994" y="681.276" as="sourcePoint" />
+            <mxPoint x="69" y="681.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="114" y="681.18" />
+              <mxPoint x="114" y="681.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;发送done信号&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="-49" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="948.18" as="sourcePoint" />
+            <mxPoint x="228.5" y="948.18" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="178" y="948.18" />
+              <mxPoint x="178" y="948.18" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-49" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;发送exit信号&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-48" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="39" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-50" value="&lt;span style=&quot;text-align: left;&quot;&gt;发送ready信号&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry x="0.0164" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="228.5" y="403.18000000000006" as="sourcePoint" />
+            <mxPoint x="70" y="403.18000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="403.18000000000006" />
+              <mxPoint x="190" y="403.18000000000006" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.922;exitY=0.476;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="69.22000000000003" y="496.8600000000001" as="sourcePoint" />
+            <mxPoint x="228.5" y="496.86571428571415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="208" y="497.18000000000006" />
+              <mxPoint x="208" y="497.18000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-52" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;发送start 信号&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-51" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="53" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-53" value="循环&lt;br&gt;（受iteration控制）" style="text;strokeColor=none;fillColor=none;html=1;fontSize=9;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="349" y="535.1800000000001" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-54" value="循环&lt;br&gt;（不计入结果）" style="text;strokeColor=none;fillColor=none;html=1;fontSize=9;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" parent="wxzZbnYdCs5ndSCOBluk-3" vertex="1">
+          <mxGeometry x="337" y="734.1800000000001" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.936;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-135.64000000000033" y="354.01" as="sourcePoint" />
+            <mxPoint x="60" y="354.18000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="354.18000000000006" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-56" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;benchmp_parent&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-55" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="54" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.249;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-134" y="330" as="sourcePoint" />
+            <mxPoint x="229.30999999999995" y="330.5140000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="24" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-58" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;benchmp_child&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-57" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.081;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-3" edge="1">
+          <mxGeometry x="-0.2643" y="19" relative="1" as="geometry">
+            <mxPoint x="238.5" y="339" as="sourcePoint" />
+            <mxPoint x="239.30999999999995" y="359.576" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="339" />
+              <mxPoint x="285" y="360" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft YaHei&quot;&gt;调用initialize(init_loop)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Microsoft YaHei&quot;&gt;&lt;b&gt;分配内存&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-59" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="68" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-61" value="benchmp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="590" y="274" width="100" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="wxzZbnYdCs5ndSCOBluk-61" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="910" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="159" as="sourcePoint" />
+            <mxPoint x="55" y="188.0344827586207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="159" />
+              <mxPoint x="80" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-64" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;parallel&amp;gt;=2，&lt;/div&gt;&lt;div&gt;递归benchmp&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;不计入结果&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="43" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="254" as="sourcePoint" />
+            <mxPoint x="55" y="283.0344827586207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="254" />
+              <mxPoint x="80" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-66" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;fork()创建子进程&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-65" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="53" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" parent="wxzZbnYdCs5ndSCOBluk-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="114" as="sourcePoint" />
+            <mxPoint x="55" y="144.3800000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="114" />
+              <mxPoint x="80" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-68" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;get_enough&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;获取enough，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;获取运行1s左右对应的&lt;b&gt;iteration&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];imageWidth=16;" parent="wxzZbnYdCs5ndSCOBluk-67" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="84" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="204" as="sourcePoint" />
+            <mxPoint x="55" y="233.0344827586207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="204" />
+              <mxPoint x="80" y="233" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-70" value="&lt;div style=&quot;text-align: left;&quot;&gt;根据&lt;b&gt;parallel&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;循环执行子进程操作&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-69" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="58" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-71" value="具体的benchmark" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="410" y="275" width="100" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="wxzZbnYdCs5ndSCOBluk-71" target="wxzZbnYdCs5ndSCOBluk-62" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="96" as="sourcePoint" />
+            <mxPoint x="55" y="129.0344827586207" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-73" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;benchmp();&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-72" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="28" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.019;entryY=0.249;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="wxzZbnYdCs5ndSCOBluk-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="575" as="sourcePoint" />
+            <mxPoint x="1001" y="575" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="803" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-75" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;handle_scheduler&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wxzZbnYdCs5ndSCOBluk-74" vertex="1" connectable="0">
+          <mxGeometry x="-0.4467" relative="1" as="geometry">
+            <mxPoint x="-2" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wxzZbnYdCs5ndSCOBluk-76" value="循环&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;（计算基础性包括运行1s所需要的iteration&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;，不计入结果）&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=9;fontStyle=1;verticalAlign=middle;align=center;dashed=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1167" y="715" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
