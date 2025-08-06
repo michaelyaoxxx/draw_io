@@ -1209,10 +1209,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QbwoIRIfgfof_W44AYjL-2" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 18px;&quot;&gt;①&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="350" width="60" height="30" as="geometry" />
+          <mxGeometry x="200" y="350" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QbwoIRIfgfof_W44AYjL-3" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 18px;&quot;&gt;②&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="350" width="60" height="30" as="geometry" />
+          <mxGeometry x="630" y="350" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QbwoIRIfgfof_W44AYjL-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#67AB9F;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1227,16 +1227,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QbwoIRIfgfof_W44AYjL-6" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 18px;&quot;&gt;③&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="360" width="60" height="30" as="geometry" />
+          <mxGeometry x="1060" y="360" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QbwoIRIfgfof_W44AYjL-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#67AB9F;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1080" y="740" as="sourcePoint" />
-            <mxPoint x="1080" y="790" as="targetPoint" />
+            <mxPoint x="1140" y="740" as="sourcePoint" />
+            <mxPoint x="1140" y="790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1080" y="770" />
+              <mxPoint x="1140" y="770" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QbwoIRIfgfof_W44AYjL-8" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 18px;&quot;&gt;④&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QbwoIRIfgfof_W44AYjL-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#67AB9F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="970" as="sourcePoint" />
+            <mxPoint x="850" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QbwoIRIfgfof_W44AYjL-10" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0); font-size: 18px;&quot;&gt;⑤&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="760" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
