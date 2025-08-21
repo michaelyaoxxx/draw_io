@@ -1,5 +1,73 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.1.0" pages="2">
   <diagram name="Page-1" id="xKvkIVZFQWv2jx4Ze0a4">
+    <mxGraphModel dx="1349" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tnEU3TK34sWj55XHYFoK-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YDTXTB6PS5T0qJHpgxqr-1" value="CPU cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YDTXTB6PS5T0qJHpgxqr-2" value="CPU MMU/TLB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YDTXTB6PS5T0qJHpgxqr-3" value="SMMU" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YDTXTB6PS5T0qJHpgxqr-4" value="DDR(Main Memory, RAM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YDTXTB6PS5T0qJHpgxqr-5" value="Buddy Allocator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-1" value="kernel page table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="450" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-2" value="process page table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="450" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-5" value="page management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="420" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-6" value="&lt;span class=&quot;fontstyle0&quot;&gt;Anonymous pages&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-7" value="&lt;span class=&quot;fontstyle0&quot;&gt;page cache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-8" value="&lt;span class=&quot;fontstyle0&quot;&gt;slob&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-9" value="&lt;span class=&quot;fontstyle0&quot;&gt;slab&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-10" value="&lt;span class=&quot;fontstyle0&quot;&gt;slub&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-11" value="Memory Reclaim&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-12" value="Memory Compaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-14" value="Swap Cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-15" value="Zswap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tnEU3TK34sWj55XHYFoK-16" value="Swap Management" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="z8X7JgqDKcptaMOkcgN8" name="Page-2">
     <mxGraphModel dx="1349" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
